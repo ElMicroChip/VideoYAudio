@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VideoViewController.h
 //  VideoYAudio
 //
 //  Created by Estudiante on 23/08/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface VideoViewController : UIViewController
+- (IBAction)volverButton:(id)sender;
 
-
-@property (strong,nonatomic) IBOutlet UITextField * userField;
 @end

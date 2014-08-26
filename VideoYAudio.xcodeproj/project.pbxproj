@@ -21,6 +21,9 @@
 		0C89D3B119A8EF53008312D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C89D39319A8EF53008312D4 /* UIKit.framework */; };
 		0C89D3B919A8EF53008312D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C89D3B719A8EF53008312D4 /* InfoPlist.strings */; };
 		0C89D3BB19A8EF53008312D4 /* VideoYAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C89D3BA19A8EF53008312D4 /* VideoYAudioTests.m */; };
+		0C89D3C619A8F30C008312D4 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C89D3C519A8F30C008312D4 /* MenuViewController.m */; };
+		0C89D3C919A8F48C008312D4 /* AlertasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C89D3C819A8F48C008312D4 /* AlertasViewController.m */; };
+		0C89D3CC19A8F49B008312D4 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C89D3CB19A8F49B008312D4 /* VideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		0C89D3B619A8EF53008312D4 /* VideoYAudioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoYAudioTests-Info.plist"; sourceTree = "<group>"; };
 		0C89D3B819A8EF53008312D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C89D3BA19A8EF53008312D4 /* VideoYAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoYAudioTests.m; sourceTree = "<group>"; };
+		0C89D3C419A8F30C008312D4 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0C89D3C519A8F30C008312D4 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0C89D3C719A8F48C008312D4 /* AlertasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertasViewController.h; sourceTree = "<group>"; };
+		0C89D3C819A8F48C008312D4 /* AlertasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertasViewController.m; sourceTree = "<group>"; };
+		0C89D3CA19A8F49B008312D4 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		0C89D3CB19A8F49B008312D4 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,8 @@
 		0C89D38319A8EF53008312D4 = {
 			isa = PBXGroup;
 			children = (
+				0C89D3C419A8F30C008312D4 /* MenuViewController.h */,
+				0C89D3C519A8F30C008312D4 /* MenuViewController.m */,
 				0C89D39519A8EF53008312D4 /* VideoYAudio */,
 				0C89D3B419A8EF53008312D4 /* VideoYAudioTests */,
 				0C89D38E19A8EF53008312D4 /* Frameworks */,
@@ -115,6 +126,10 @@
 				0C89D39E19A8EF53008312D4 /* AppDelegate.h */,
 				0C89D39F19A8EF53008312D4 /* AppDelegate.m */,
 				0C89D3A119A8EF53008312D4 /* Main.storyboard */,
+				0C89D3C719A8F48C008312D4 /* AlertasViewController.h */,
+				0C89D3C819A8F48C008312D4 /* AlertasViewController.m */,
+				0C89D3CA19A8F49B008312D4 /* VideoViewController.h */,
+				0C89D3CB19A8F49B008312D4 /* VideoViewController.m */,
 				0C89D3A419A8EF53008312D4 /* ViewController.h */,
 				0C89D3A519A8EF53008312D4 /* ViewController.m */,
 				0C89D3A719A8EF53008312D4 /* Images.xcassets */,
@@ -250,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C89D3A619A8EF53008312D4 /* ViewController.m in Sources */,
+				0C89D3C919A8F48C008312D4 /* AlertasViewController.m in Sources */,
+				0C89D3CC19A8F49B008312D4 /* VideoViewController.m in Sources */,
 				0C89D3A019A8EF53008312D4 /* AppDelegate.m in Sources */,
 				0C89D39C19A8EF53008312D4 /* main.m in Sources */,
+				0C89D3C619A8F30C008312D4 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
